@@ -1,0 +1,5 @@
+flask
+bs4
+requests
+urllib.request
+flask_cors

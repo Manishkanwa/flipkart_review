@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <div class = "table-users">
+        <div class="Header">Reviews</div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th width = "230">Review</th>
+            </tr>
+            {%for review in reviews%}
+            <tr>
+                <td>{{review["name"]}}</td>
+                <td>{{review["text"]}}</td>
+                {%endfor%}
+        </table>    
+    </div>
+</html>
